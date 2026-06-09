@@ -1,0 +1,105 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #191919;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.logo-header {
+    max-width: 100%;
+    padding: 17px 0;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 40px;
+    font-size: 17px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 50px;
+}
+
+.nav-list a:hover,
+.active {
+    color: #118DA8;
+}
+.section-content {
+    margin-top: 40px;
+    padding: 0 70px;
+    display: flex;
+    gap: 60px;
+}
+
+.wrapper-img {
+    width: 650px;
+    position: relative;
+    height: 874px;
+
+}
+
+.dash-1 {
+    position: absolute;
+    top: -14px;
+    left: -19px;
+}
+
+.dash-2 {
+    position: absolute;
+    top: -26px;
+    left: 30px;
+}
+
+.dash-3 {
+    position: absolute;
+    top: 40px;
+    left: -28px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+   
+}
+.main-text h1 {
+    font-size: 70px;
+    line-height: 88px;
+    width: 530px;
+    letter-spacing: 3.2px;
+    margin-top: 294px;
+    margin-bottom: 90px;
+}
+.highlighted {
+    position: relative;
+
+}
+.highlighted::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 11px;
+    width: 100%;
+    background-image: url(../images/Vector-4.svg);
+}
+
+.listen-text {
+    font-size: 15px;
+    margin-top: 74px;
+}
+
+.listen {
+    display: flex;
+    gap: 17px;
+    margin-top: 16px;
+}
