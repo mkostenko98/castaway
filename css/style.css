@@ -3,6 +3,11 @@ body {
     background-color: #191919;
 }
 
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
 a {
     color: #FFFFFF;
 }
@@ -35,7 +40,6 @@ header {
 }
 .section-content {
     margin-top: 40px;
-    padding: 0 70px;
     display: flex;
     gap: 60px;
 }
@@ -103,3 +107,80 @@ header {
     gap: 17px;
     margin-top: 16px;
 }
+
+.latest-episodes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 101px;
+    margin-bottom: 66px;
+}
+
+.latest-episodes-header h2 {
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+.button-episodes {
+    font-size: 17px;
+    background-color:  #118DA8;
+    padding: 12px 15px 12px 20px;
+    border-radius: 6px;
+}
+
+.episodes-card-3 {
+    display: flex;
+    background-color:  #000000;
+    border-radius: 10px;
+    padding: 40px;
+    gap: 53px;
+}
+.episides-description {
+    color:#FFFFFF;
+    
+}
+
+.episodes-card+.episodes-card{
+    margin-top: 60px;
+}
+
+.episides-description h3 {
+    background-color: #191919;
+    width: max-content;
+    padding: 10px 16px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-top: 7px;
+    margin-bottom: 48px;
+}
+
+.episides-description span {
+    color: #118DA8;
+    font-size: 17px;
+}
+
+.episides-description h4 {
+    font-size: 64px;
+    margin-top: 18px;
+    max-width: 650px;
+    letter-spacing: 2.6px;
+}
+.episides-description  p {
+    font-size: 22px;
+    margin-top: 28px;
+    opacity: 0.7;
+    line-height: 1.5;
+    max-width: 757px;
+    margin-bottom: 18px;
+}
+
+.episides-description a {
+    background-color:  #118DA8;
+    padding: 12px 15px 12px 20px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
